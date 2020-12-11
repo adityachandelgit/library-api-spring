@@ -51,7 +51,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Library API")
                 .description("Library API is used for managing the books in the library. " +
-                        "All API endpoints require a valid Basic token in the 'Authorization' header.")
+                        "All API endpoints require a valid Basic token in the 'Authorization' header. To set the authentication token in swagger UI, click the green 'Authorize' button on the right and then paste 'Basic YWRpdHlhOkdXTURTc1BOWlg2TjlSNm1CblpzdHdMQTQ1N2NtUE1m' in the 'value' field")
                 .version("1.0.0")
                 .build();
     }
